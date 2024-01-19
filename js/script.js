@@ -44,7 +44,29 @@ function pauseMusic() {
     playpauseBtn.querySelector("i").innerText = "play_arrow";
     mainAudio.pause();
 }
+function handleKeyPress(event) {
+    // Check if the right arrow key (keyCode 39) is pressed
+    if (event.keyCode === 39) {
+      // Play the audio when the right arrow key is pressed
+      nextMusic();
+    }
+    if (event.keyCode === 37) {
+        // Play the audio when the right arrow key is pressed
+        prevMusic();
+      }
+      if (event.keyCode === 32) {
+        // Play the audio when the right arrow key is pressed
+        if(mainAudio.paused){
+            playMusic();
+      }else{
+        pauseMusic();
+      }
+        
+    }
+  }
 
+
+document.addEventListener('keydown', handleKeyPress);
 
 // Next Music function
 function nextMusic() {

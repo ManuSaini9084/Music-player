@@ -1,40 +1,45 @@
 let allMusic = [
 
     {
-        name: "Harley Bird - Home",
-        artist: "Jordan Scho",
+        name: "Tu Hai Kahan",
+        artist: "Aur",
         img: "music-1",
         src: "music-1"
     },
     {
-        name: "Ikson Anywhere – Ikson",
+        name: "Ve kamleya",
         artist: "Audio Library",
         img: "music-2",
         src: "music-2"
     },
     {
-        name: "Beauz & Jvna - Crazy",
-        artist: "Beauz & Jvna",
+        name: "Pehle Bhi Main",
+        artist: "Vishal Mishra",
         img: "music-3",
         src: "music-3"
     },
     {
-        name: "Hardwind - Want Me",
-        artist: "Mike Archangelo",
+        name: "Jeena jeena kaise jeena",
+        artist: "Atif aslam",
         img: "music-4",
         src: "music-4"
     },
     {
-        name: "Jim - Sun Goes Down",
-        artist: "Jim Yosef x Roy",
+        name: "Tera Hone Laga Hu",
+        artist: "Atif Aslam",
         img: "music-5",
         src: "music-5"
     },
     {
-        name: "Lost Sky - Vision NCS",
-        artist: "NCS Release",
+        name: "Dekhte Dekhte",
+        artist: "Atif aslam",
         img: "music-6",
         src: "music-6"
     },
-    
+    {
+        name: "Heeriye Heeriye",
+        artist: "arjit singh",
+        img: "music-7",
+        src: "music-7"
+    }
     ];
